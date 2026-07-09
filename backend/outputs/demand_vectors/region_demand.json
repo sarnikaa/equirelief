@@ -1,0 +1,108 @@
+{
+  "north": {
+    "need": {
+      "food": 26,
+      "water": 9,
+      "medicine": 12
+    },
+    "urgency": 1.0,
+    "message_count": 27,
+    "location_mentions": [],
+    "disaster_types": [
+      "general",
+      "flood"
+    ],
+    "need_normalised": {
+      "food": 0.5,
+      "water": 0.1731,
+      "medicine": 0.2308
+    }
+  },
+  "south": {
+    "need": {
+      "food": 25,
+      "water": 42,
+      "medicine": 11
+    },
+    "urgency": 1.0,
+    "message_count": 38,
+    "location_mentions": [],
+    "disaster_types": [
+      "epidemic",
+      "general",
+      "fire",
+      "cyclone",
+      "flood"
+    ],
+    "need_normalised": {
+      "food": 0.4808,
+      "water": 0.8077,
+      "medicine": 0.2115
+    }
+  },
+  "east": {
+    "need": {
+      "food": 20,
+      "water": 10,
+      "medicine": 6
+    },
+    "urgency": 1.0,
+    "message_count": 22,
+    "location_mentions": [],
+    "disaster_types": [
+      "general",
+      "earthquake",
+      "landslide",
+      "fire",
+      "flood"
+    ],
+    "need_normalised": {
+      "food": 0.3846,
+      "water": 0.1923,
+      "medicine": 0.1154
+    }
+  },
+  "west": {
+    "need": {
+      "food": 27,
+      "water": 10,
+      "medicine": 3
+    },
+    "urgency": 1.0,
+    "message_count": 27,
+    "location_mentions": [],
+    "disaster_types": [
+      "general",
+      "epidemic",
+      "flood",
+      "cyclone"
+    ],
+    "need_normalised": {
+      "food": 0.5192,
+      "water": 0.1923,
+      "medicine": 0.0577
+    }
+  },
+  "central": {
+    "need": {
+      "food": 52,
+      "water": 14,
+      "medicine": 15
+    },
+    "urgency": 1.0,
+    "message_count": 49,
+    "location_mentions": [],
+    "disaster_types": [
+      "general",
+      "flood",
+      "earthquake",
+      "landslide",
+      "cyclone"
+    ],
+    "need_normalised": {
+      "food": 1.0,
+      "water": 0.2692,
+      "medicine": 0.2885
+    }
+  }
+}

@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink-950: #050709;
+  --ink-900: #0a0d12;
+  --ink-800: #111620;
+  --ink-700: #1a2130;
+  --signal: #00e5a0;
+  --signal-dim: #00b87e;
+  --amber: #f59e0b;
+  --coral: #ff6b6b;
+  --sky: #38bdf8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--ink-950);
+  color: #e2e8f0;
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--ink-900); }
+::-webkit-scrollbar-thumb { background: #2a3545; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--signal-dim); }
+
+/* Grid noise overlay */
+.grid-overlay {
+  background-image:
+    linear-gradient(rgba(0,229,160,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,229,160,0.02) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Glow effects */
+.glow-signal { box-shadow: 0 0 20px rgba(0,229,160,0.15); }
+.glow-amber  { box-shadow: 0 0 20px rgba(245,158,11,0.15); }
+.glow-coral  { box-shadow: 0 0 20px rgba(255,107,107,0.15); }
+
+/* Terminal cursor blink */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.cursor-blink::after {
+  content: '█';
+  color: var(--signal);
+  animation: blink 1s step-end infinite;
+  margin-left: 2px;
+}
+
+/* Section divider */
+.section-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0,229,160,0.3), transparent);
+}
+
+/* Card base */
+.card {
+  background: var(--ink-800);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 8px;
+}
+
+.card-highlight {
+  background: var(--ink-800);
+  border: 1px solid rgba(0,229,160,0.2);
+  border-radius: 8px;
+}
+
+/* Tag pill */
+.tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 1px solid;
+}
+
+/* Stat number */
+.stat-num {
+  font-family: 'Space Mono', monospace;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* Pipeline node */
+.pipeline-node {
+  background: var(--ink-700);
+  border: 1px solid rgba(0,229,160,0.15);
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+.pipeline-node:hover {
+  border-color: rgba(0,229,160,0.4);
+  background: var(--ink-600);
+}
+
+/* Animate on mount */
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-slide-up { animation: slideUp 0.45s ease forwards; }
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }

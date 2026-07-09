@@ -1,0 +1,697 @@
+[
+  {
+    "id": "ta001",
+    "text": "North area la saapadu illai, ungalukku help venuma?",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "north area",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "ta002",
+    "text": "Inga saapadu kudukka marandhuteengala, east camp la pasi thangala",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "east camp",
+    "disaster_type": "general",
+    "region": "east"
+  },
+  {
+    "id": "ta003",
+    "text": "South shelter la rice tharuma, immediately kudunga",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "south shelter",
+    "disaster_type": "flood",
+    "region": "south"
+  },
+  {
+    "id": "ta004",
+    "text": "Pillaikku saapadu illaama irukku central camp la",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "central camp",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "ta005",
+    "text": "West zone la ration varavilai, urgent ah send pannunga",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "west zone",
+    "disaster_type": "flood",
+    "region": "west"
+  },
+  {
+    "id": "ta006",
+    "text": "Kudikka thanni illai north la, pipes ellam damage aayitenga",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "north",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "ta007",
+    "text": "South area la water supply cut aayiduchu, urgent help",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "south area",
+    "disaster_type": "general",
+    "region": "south"
+  },
+  {
+    "id": "ta008",
+    "text": "East camp la thanni contaminated aayiruchu, clean water anupunga",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "east camp",
+    "disaster_type": "flood",
+    "region": "east"
+  },
+  {
+    "id": "ta009",
+    "text": "Central la thanni lorry 3 naal varala, people suffering",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "ta010",
+    "text": "West district la thanni problem iruku, help pannunga",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "west district",
+    "disaster_type": "flood",
+    "region": "west"
+  },
+  {
+    "id": "ta011",
+    "text": "North hospital la medicine stock tharuma, sick people waiting",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "north hospital",
+    "disaster_type": "general",
+    "region": "north"
+  },
+  {
+    "id": "ta012",
+    "text": "South camp la fever patients irukkaanga, tablets tharuma",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "south camp",
+    "disaster_type": "epidemic",
+    "region": "south"
+  },
+  {
+    "id": "ta013",
+    "text": "East la wound patients, first aid illai yaar",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "east",
+    "disaster_type": "flood",
+    "region": "east"
+  },
+  {
+    "id": "ta014",
+    "text": "Central mein delivery case, ambulance varavilai, medical help",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "ta015",
+    "text": "West la diarrhea spreading, ORS and medicine anupunga",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "west",
+    "disaster_type": "epidemic",
+    "region": "west"
+  },
+  {
+    "id": "ta016",
+    "text": "North la saapadu, thanni, marunthu ellame venuma, very bad situation",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water",
+      "medicine"
+    ],
+    "location": "north",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "ta017",
+    "text": "South village flood aayiduchu, saapadu thanni tharuma",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water"
+    ],
+    "location": "south village",
+    "disaster_type": "flood",
+    "region": "south"
+  },
+  {
+    "id": "ta018",
+    "text": "East district earthquake, saapadu marunthu anupunga",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "medicine"
+    ],
+    "location": "east district",
+    "disaster_type": "earthquake",
+    "region": "east"
+  },
+  {
+    "id": "ta019",
+    "text": "Central la 40 hours aayiduchu saapadu illama, rescue panunga",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "central",
+    "disaster_type": "flood",
+    "region": "central"
+  },
+  {
+    "id": "ta020",
+    "text": "West relief camp la ellame tharuma, very urgent",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water",
+      "medicine"
+    ],
+    "location": "west camp",
+    "disaster_type": "flood",
+    "region": "west"
+  },
+  {
+    "id": "ta021",
+    "text": "North camp la volunteers varaanga naalaikku",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "north camp",
+    "disaster_type": "general",
+    "region": "north"
+  },
+  {
+    "id": "ta022",
+    "text": "South la roads clear aayiduchu",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "south",
+    "disaster_type": "flood",
+    "region": "south"
+  },
+  {
+    "id": "ta023",
+    "text": "East hospital tirupaduchu, patients varalaam",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "east hospital",
+    "disaster_type": "general",
+    "region": "east"
+  },
+  {
+    "id": "ta024",
+    "text": "Central la flood level kurainju varudu",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "central",
+    "disaster_type": "flood",
+    "region": "central"
+  },
+  {
+    "id": "ta025",
+    "text": "West la current vandhuduchu, things normalising",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "west",
+    "disaster_type": "general",
+    "region": "west"
+  },
+  {
+    "id": "ta026",
+    "text": "Ayyo north la enna nadakudhuna theriyala, help pannu yaar",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [],
+    "location": "north",
+    "disaster_type": "general",
+    "region": "north"
+  },
+  {
+    "id": "ta027",
+    "text": "South la situation romba mosam, plz help!!!",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water",
+      "medicine"
+    ],
+    "location": "south",
+    "disaster_type": "flood",
+    "region": "south"
+  },
+  {
+    "id": "ta028",
+    "text": "RT @helpeast: East la thanni problem iruku, anupunga",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "east",
+    "disaster_type": "flood",
+    "region": "east"
+  },
+  {
+    "id": "ta029",
+    "text": "Central camp address sollunga, vaara try pannaren",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "central camp",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "ta030",
+    "text": "West la relief varudhunu ketten, unmaiya?",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "west",
+    "disaster_type": "general",
+    "region": "west"
+  },
+  {
+    "id": "ta031",
+    "text": "North la வெள்ளம் adhigama iruku, saapadu anupunga",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "north",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "ta032",
+    "text": "South la மருந்து venuma, please help",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "south",
+    "disaster_type": "general",
+    "region": "south"
+  },
+  {
+    "id": "ta033",
+    "text": "East camp la தண்ணீர் illai, water send pannunga",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "east camp",
+    "disaster_type": "general",
+    "region": "east"
+  },
+  {
+    "id": "ta034",
+    "text": "Central la நிலைமை சரியா iruku",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "ta035",
+    "text": "West la வெள்ளம் kurainju, but saapadu still venuma",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "west",
+    "disaster_type": "flood",
+    "region": "west"
+  },
+  {
+    "id": "ta036",
+    "text": "North camp la 600 peru irukkaanga, 200 perukkuthaan saapadu iruku",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "north camp",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "ta037",
+    "text": "South hospital la oxygen illai, life risk",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "south hospital",
+    "disaster_type": "general",
+    "region": "south"
+  },
+  {
+    "id": "ta038",
+    "text": "East la doctor illai, medical team anupunga",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "east",
+    "disaster_type": "general",
+    "region": "east"
+  },
+  {
+    "id": "ta039",
+    "text": "Central camp la kandu pidikkavillai, abandoned feel",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water"
+    ],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "ta040",
+    "text": "West la thanni level erudhu, veettu vida sollunga",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [],
+    "location": "west",
+    "disaster_type": "flood",
+    "region": "west"
+  },
+  {
+    "id": "ta041",
+    "text": "North la rescue team vandhuduchu, people safe",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "north",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "ta042",
+    "text": "South la cyclone damage, saapadu thanni ellame venuma",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water"
+    ],
+    "location": "south",
+    "disaster_type": "cyclone",
+    "region": "south"
+  },
+  {
+    "id": "ta043",
+    "text": "East relief work smooth ah nadakudu, no major issues",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "east",
+    "disaster_type": "general",
+    "region": "east"
+  },
+  {
+    "id": "ta044",
+    "text": "Central la snake bite case, antivenom immediately venuma",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "ta045",
+    "text": "West camp la sari, naalaikku school start",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "west camp",
+    "disaster_type": "general",
+    "region": "west"
+  },
+  {
+    "id": "ta046",
+    "text": "North la 2-3 naal saapadu iruku, stock mudinji poidum",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [
+      "food"
+    ],
+    "location": "north",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "ta047",
+    "text": "South la thanni varudhu, sari thaan",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [
+      "water"
+    ],
+    "location": "south",
+    "disaster_type": "general",
+    "region": "south"
+  },
+  {
+    "id": "ta048",
+    "text": "East hospital la medicine kuraivu, replenish pannunga",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [
+      "medicine"
+    ],
+    "location": "east hospital",
+    "disaster_type": "general",
+    "region": "east"
+  },
+  {
+    "id": "ta049",
+    "text": "Central la everything ok for now",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "ta050",
+    "text": "West stable, no immediate needs",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "west",
+    "disaster_type": "general",
+    "region": "west"
+  },
+  {
+    "id": "ta051",
+    "text": "North la mozhiyum vandhuduchu, urgent saapadu venuma",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "north",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "ta052",
+    "text": "South la fire, people safe, thanni venuma",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "south",
+    "disaster_type": "fire",
+    "region": "south"
+  },
+  {
+    "id": "ta053",
+    "text": "East la rescue over, all people accounted for",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "east",
+    "disaster_type": "flood",
+    "region": "east"
+  },
+  {
+    "id": "ta054",
+    "text": "Central la full, vera camp venuma, saapadu venuma",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "ta055",
+    "text": "West la earthquake, everything damaged, help pannunga",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "medicine"
+    ],
+    "location": "west",
+    "disaster_type": "earthquake",
+    "region": "west"
+  },
+  {
+    "id": "ta056",
+    "text": "North area clear, people return pannikittu irukkaanga",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "north area",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "ta057",
+    "text": "South village muzhukka mazhaya nu, SOS SOS",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water",
+      "medicine"
+    ],
+    "location": "south village",
+    "disaster_type": "flood",
+    "region": "south"
+  },
+  {
+    "id": "ta058",
+    "text": "East la volunteers work pannraanga, going well",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "east",
+    "disaster_type": "general",
+    "region": "east"
+  },
+  {
+    "id": "ta059",
+    "text": "Central la paambu kadichiruku, marunthu illai yaar urgent",
+    "lang": "tanglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "ta060",
+    "text": "West camp normal, tomorrow back to school",
+    "lang": "tanglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "west camp",
+    "disaster_type": "general",
+    "region": "west"
+  }
+]

@@ -1,0 +1,25 @@
+# Models & checkpoints
+backend/models/hf_cache/
+backend/models/checkpoints/
+
+# Node
+frontend/node_modules/
+node_modules/
+
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Data
+backend/data/raw/
+backend/data/processed/
+
+# Env files
+.env
+
+# Build output
+dist/
+build/
+.next/

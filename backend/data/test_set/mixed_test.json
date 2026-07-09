@@ -1,0 +1,678 @@
+[
+  {
+    "id": "en001",
+    "text": "Food packets urgently needed at north relief camp",
+    "lang": "en",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "north relief camp",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "en002",
+    "text": "Water supply contaminated in south district after flooding",
+    "lang": "en",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "south district",
+    "disaster_type": "flood",
+    "region": "south"
+  },
+  {
+    "id": "en003",
+    "text": "East hospital running out of antibiotics, please send supplies",
+    "lang": "en",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "east hospital",
+    "disaster_type": "general",
+    "region": "east"
+  },
+  {
+    "id": "en004",
+    "text": "Volunteers arrived at central camp, situation improving",
+    "lang": "en",
+    "urgency": 0,
+    "resources": [],
+    "location": "central camp",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "en005",
+    "text": "West village completely submerged, 200 people need evacuation",
+    "lang": "en",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water"
+    ],
+    "location": "west village",
+    "disaster_type": "flood",
+    "region": "west"
+  },
+  {
+    "id": "en006",
+    "text": "Rescue boats deployed to north sector, operations underway",
+    "lang": "en",
+    "urgency": 0,
+    "resources": [],
+    "location": "north sector",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "en007",
+    "text": "Cholera outbreak suspected in south camp, medical team needed",
+    "lang": "en",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "south camp",
+    "disaster_type": "epidemic",
+    "region": "south"
+  },
+  {
+    "id": "en008",
+    "text": "East district roads cleared, relief trucks can now enter",
+    "lang": "en",
+    "urgency": 0,
+    "resources": [],
+    "location": "east district",
+    "disaster_type": "flood",
+    "region": "east"
+  },
+  {
+    "id": "en009",
+    "text": "Central shelter at full capacity, need additional tents and food",
+    "lang": "en",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "central shelter",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "en010",
+    "text": "Power restored to west area, normalcy returning",
+    "lang": "en",
+    "urgency": 0,
+    "resources": [],
+    "location": "west area",
+    "disaster_type": "general",
+    "region": "west"
+  },
+  {
+    "id": "en011",
+    "text": "SOS from north island, people stranded for 72 hours, no food water medicine",
+    "lang": "en",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water",
+      "medicine"
+    ],
+    "location": "north island",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "en012",
+    "text": "South relief camp receiving donations, no immediate shortages",
+    "lang": "en",
+    "urgency": 0,
+    "resources": [],
+    "location": "south camp",
+    "disaster_type": "general",
+    "region": "south"
+  },
+  {
+    "id": "en013",
+    "text": "Landslide blocked road to east village, rescue needed",
+    "lang": "en",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "medicine"
+    ],
+    "location": "east village",
+    "disaster_type": "landslide",
+    "region": "east"
+  },
+  {
+    "id": "en014",
+    "text": "Central hospital treating 50+ injured from earthquake",
+    "lang": "en",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "central hospital",
+    "disaster_type": "earthquake",
+    "region": "central"
+  },
+  {
+    "id": "en015",
+    "text": "West sector flood waters receding, cleanup operations started",
+    "lang": "en",
+    "urgency": 0,
+    "resources": [],
+    "location": "west sector",
+    "disaster_type": "flood",
+    "region": "west"
+  },
+  {
+    "id": "en016",
+    "text": "North camp children need ORS, diarrhoea cases rising",
+    "lang": "en",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "north camp",
+    "disaster_type": "epidemic",
+    "region": "north"
+  },
+  {
+    "id": "en017",
+    "text": "South district schools converted to relief centres",
+    "lang": "en",
+    "urgency": 0,
+    "resources": [],
+    "location": "south district",
+    "disaster_type": "flood",
+    "region": "south"
+  },
+  {
+    "id": "en018",
+    "text": "East area fire contained, no injuries reported",
+    "lang": "en",
+    "urgency": 0,
+    "resources": [],
+    "location": "east area",
+    "disaster_type": "fire",
+    "region": "east"
+  },
+  {
+    "id": "en019",
+    "text": "Drinking water scarcity critical in central zone, send tankers now",
+    "lang": "en",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "central zone",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "en020",
+    "text": "West coast cyclone warning lifted, all clear",
+    "lang": "en",
+    "urgency": 0,
+    "resources": [],
+    "location": "west coast",
+    "disaster_type": "cyclone",
+    "region": "west"
+  },
+  {
+    "id": "hn001",
+    "text": "उत्तर में भोजन की तत्काल आवश्यकता है, जल्दी भेजें",
+    "lang": "hi",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "north",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "hn002",
+    "text": "दक्षिण क्षेत्र में पीने का पानी नहीं है, तुरंत मदद चाहिए",
+    "lang": "hi",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "south",
+    "disaster_type": "flood",
+    "region": "south"
+  },
+  {
+    "id": "hn003",
+    "text": "पूर्व अस्पताल में दवाइयां खत्म हो गई हैं",
+    "lang": "hi",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "east",
+    "disaster_type": "general",
+    "region": "east"
+  },
+  {
+    "id": "hn004",
+    "text": "केंद्रीय राहत शिविर में स्थिति सामान्य हो रही है",
+    "lang": "hi",
+    "urgency": 0,
+    "resources": [],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "hn005",
+    "text": "पश्चिम गाँव में बाढ़ का पानी घरों में घुस गया, मदद चाहिए",
+    "lang": "hi",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water"
+    ],
+    "location": "west village",
+    "disaster_type": "flood",
+    "region": "west"
+  },
+  {
+    "id": "hn006",
+    "text": "उत्तर में बचाव दल पहुंच गया है",
+    "lang": "hi",
+    "urgency": 0,
+    "resources": [],
+    "location": "north",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "hn007",
+    "text": "दक्षिण में हैजा फैल रहा है, चिकित्सा टीम भेजो",
+    "lang": "hi",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "south",
+    "disaster_type": "epidemic",
+    "region": "south"
+  },
+  {
+    "id": "hn008",
+    "text": "पूर्व जिले की सड़कें साफ हो गई हैं",
+    "lang": "hi",
+    "urgency": 0,
+    "resources": [],
+    "location": "east",
+    "disaster_type": "flood",
+    "region": "east"
+  },
+  {
+    "id": "hn009",
+    "text": "केंद्रीय शिविर भर गया है, और भोजन चाहिए",
+    "lang": "hi",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "hn010",
+    "text": "पश्चिम में बिजली वापस आ गई है",
+    "lang": "hi",
+    "urgency": 0,
+    "resources": [],
+    "location": "west",
+    "disaster_type": "general",
+    "region": "west"
+  },
+  {
+    "id": "hn011",
+    "text": "उत्तर में 72 घंटे से लोग फंसे हैं, कोई मदद नहीं",
+    "lang": "hi",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water",
+      "medicine"
+    ],
+    "location": "north",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "hn012",
+    "text": "दक्षिण शिविर में दान आ रहा है, कोई कमी नहीं",
+    "lang": "hi",
+    "urgency": 0,
+    "resources": [],
+    "location": "south",
+    "disaster_type": "general",
+    "region": "south"
+  },
+  {
+    "id": "hn013",
+    "text": "पूर्व में भूस्खलन, रास्ता बंद, राशन चाहिए",
+    "lang": "hi",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "east",
+    "disaster_type": "landslide",
+    "region": "east"
+  },
+  {
+    "id": "hn014",
+    "text": "केंद्र में भूकंप से 50 से अधिक घायल",
+    "lang": "hi",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "central",
+    "disaster_type": "earthquake",
+    "region": "central"
+  },
+  {
+    "id": "hn015",
+    "text": "पश्चिम में बाढ़ का पानी कम हो रहा है",
+    "lang": "hi",
+    "urgency": 0,
+    "resources": [],
+    "location": "west",
+    "disaster_type": "flood",
+    "region": "west"
+  },
+  {
+    "id": "hn016",
+    "text": "उत्तर शिविर में बच्चों को ओआरएस चाहिए",
+    "lang": "hi",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "north",
+    "disaster_type": "epidemic",
+    "region": "north"
+  },
+  {
+    "id": "hn017",
+    "text": "दक्षिण जिले के स्कूल राहत केंद्र बने",
+    "lang": "hi",
+    "urgency": 0,
+    "resources": [],
+    "location": "south",
+    "disaster_type": "flood",
+    "region": "south"
+  },
+  {
+    "id": "hn018",
+    "text": "पूर्व में आग बुझ गई, कोई घायल नहीं",
+    "lang": "hi",
+    "urgency": 0,
+    "resources": [],
+    "location": "east",
+    "disaster_type": "fire",
+    "region": "east"
+  },
+  {
+    "id": "hn019",
+    "text": "केंद्र में पीने का पानी बेहद जरूरी, टैंकर भेजो",
+    "lang": "hi",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "hn020",
+    "text": "पश्चिम में चक्रवात की चेतावनी हटाई गई",
+    "lang": "hi",
+    "urgency": 0,
+    "resources": [],
+    "location": "west",
+    "disaster_type": "cyclone",
+    "region": "west"
+  },
+  {
+    "id": "tm001",
+    "text": "வடக்கில் உணவு உடனடியாக தேவை, அனுப்புங்கள்",
+    "lang": "ta",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "north",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "tm002",
+    "text": "தெற்கில் குடிநீர் பிரச்சனை, உடனடி உதவி வேண்டும்",
+    "lang": "ta",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "south",
+    "disaster_type": "flood",
+    "region": "south"
+  },
+  {
+    "id": "tm003",
+    "text": "கிழக்கு மருத்துவமனையில் மருந்து இல்லை",
+    "lang": "ta",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "east",
+    "disaster_type": "general",
+    "region": "east"
+  },
+  {
+    "id": "tm004",
+    "text": "மத்திய முகாமில் நிலைமை சரியாகி வருகிறது",
+    "lang": "ta",
+    "urgency": 0,
+    "resources": [],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "tm005",
+    "text": "மேற்கு கிராமம் முழுவதும் நீரில் மூழ்கி உள்ளது",
+    "lang": "ta",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water"
+    ],
+    "location": "west village",
+    "disaster_type": "flood",
+    "region": "west"
+  },
+  {
+    "id": "tm006",
+    "text": "வடக்கில் மீட்பு படை வந்துவிட்டது",
+    "lang": "ta",
+    "urgency": 0,
+    "resources": [],
+    "location": "north",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "tm007",
+    "text": "தெற்கில் காலரா பரவுகிறது, மருத்துவ குழு வேண்டும்",
+    "lang": "ta",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "south",
+    "disaster_type": "epidemic",
+    "region": "south"
+  },
+  {
+    "id": "tm008",
+    "text": "கிழக்கு மாவட்ட சாலைகள் சரி செய்யப்பட்டன",
+    "lang": "ta",
+    "urgency": 0,
+    "resources": [],
+    "location": "east",
+    "disaster_type": "flood",
+    "region": "east"
+  },
+  {
+    "id": "tm009",
+    "text": "மத்திய தஞ்சாவூர் முகாம் நிரம்பி விட்டது, உணவு வேண்டும்",
+    "lang": "ta",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "tm010",
+    "text": "மேற்கில் மின்சாரம் வந்துவிட்டது",
+    "lang": "ta",
+    "urgency": 0,
+    "resources": [],
+    "location": "west",
+    "disaster_type": "general",
+    "region": "west"
+  },
+  {
+    "id": "tm011",
+    "text": "வடக்கில் 72 மணி நேரமாக மக்கள் சிக்கியுள்ளனர், SOS",
+    "lang": "ta",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water",
+      "medicine"
+    ],
+    "location": "north",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "tm012",
+    "text": "தெற்கு முகாமில் நன்கொடை வருகிறது",
+    "lang": "ta",
+    "urgency": 0,
+    "resources": [],
+    "location": "south",
+    "disaster_type": "general",
+    "region": "south"
+  },
+  {
+    "id": "tm013",
+    "text": "கிழக்கில் நிலச்சரிவு, சாலை மூடல், ரேஷன் வேண்டும்",
+    "lang": "ta",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "east",
+    "disaster_type": "landslide",
+    "region": "east"
+  },
+  {
+    "id": "tm014",
+    "text": "மையத்தில் நிலநடுக்கம், 50+ பேர் காயம்",
+    "lang": "ta",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "central",
+    "disaster_type": "earthquake",
+    "region": "central"
+  },
+  {
+    "id": "tm015",
+    "text": "மேற்கில் வெள்ள நீர் குறைகிறது",
+    "lang": "ta",
+    "urgency": 0,
+    "resources": [],
+    "location": "west",
+    "disaster_type": "flood",
+    "region": "west"
+  },
+  {
+    "id": "tm016",
+    "text": "வடக்கு முகாமில் குழந்தைகளுக்கு ORS வேண்டும்",
+    "lang": "ta",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "north",
+    "disaster_type": "epidemic",
+    "region": "north"
+  },
+  {
+    "id": "tm017",
+    "text": "தெற்கில் பள்ளிகள் நிவாரண மையங்களாக மாற்றப்பட்டன",
+    "lang": "ta",
+    "urgency": 0,
+    "resources": [],
+    "location": "south",
+    "disaster_type": "flood",
+    "region": "south"
+  },
+  {
+    "id": "tm018",
+    "text": "கிழக்கில் தீ அணைக்கப்பட்டது, யாரும் காயமடையவில்லை",
+    "lang": "ta",
+    "urgency": 0,
+    "resources": [],
+    "location": "east",
+    "disaster_type": "fire",
+    "region": "east"
+  },
+  {
+    "id": "tm019",
+    "text": "மையத்தில் குடிநீர் மிகவும் அவசியம், டேங்கர் அனுப்புங்கள்",
+    "lang": "ta",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "tm020",
+    "text": "மேற்கு கடலோரத்தில் புயல் எச்சரிக்கை நீக்கப்பட்டது",
+    "lang": "ta",
+    "urgency": 0,
+    "resources": [],
+    "location": "west",
+    "disaster_type": "cyclone",
+    "region": "west"
+  }
+]

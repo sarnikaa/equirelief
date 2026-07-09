@@ -1,0 +1,181 @@
+{
+  "nlp_performance": [
+    {
+      "Stage": "Stage 2",
+      "Task": "Language Detection",
+      "Metric": "Accuracy",
+      "Test N": "180",
+      "Score": "100.0%"
+    },
+    {
+      "Stage": "Stage 6/7",
+      "Task": "Region Detection",
+      "Metric": "Accuracy",
+      "Test N": "180",
+      "Score": "81.7%"
+    },
+    {
+      "Stage": "Stage 7",
+      "Task": "Resource Extraction",
+      "Metric": "F1 (macro)",
+      "Test N": "180",
+      "Score": "0.724"
+    },
+    {
+      "Stage": "Stage 7",
+      "Task": "Resource Extraction",
+      "Metric": "F1 (macro)",
+      "Test N": "2,629",
+      "Score": "0.787"
+    },
+    {
+      "Stage": "Stage 8",
+      "Task": "Urgency (English)",
+      "Metric": "F1 (macro)",
+      "Test N": "16,160",
+      "Score": "0.879"
+    },
+    {
+      "Stage": "Stage 8",
+      "Task": "Urgency (Kerala domain)",
+      "Metric": "F1(macro)",
+      "Test N": "7,984",
+      "Score": "0.829"
+    },
+    {
+      "Stage": "Stage 8",
+      "Task": "Urgency (Multilingual)",
+      "Metric": "F1 (macro)",
+      "Test N": "180",
+      "Score": "0.588"
+    }
+  ],
+  "per_lang_urgency": [
+    {
+      "Language": "English",
+      "F1 (macro)": "0.792",
+      "N": "20",
+      "Note": "Supervised training data available"
+    },
+    {
+      "Language": "Hindi",
+      "F1 (macro)": "0.688",
+      "N": "20",
+      "Note": "Zero-shot (Devanagari script transfer)"
+    },
+    {
+      "Language": "Tamil",
+      "F1 (macro)": "0.749",
+      "N": "20",
+      "Note": "Zero-shot (Tamil script transfer)"
+    },
+    {
+      "Language": "Hinglish",
+      "F1 (macro)": "0.517",
+      "N": "60",
+      "Note": "Zero-shot (romanized code-mixed — known gap)"
+    },
+    {
+      "Language": "Tanglish",
+      "F1 (macro)": "0.499",
+      "N": "60",
+      "Note": "Zero-shot (romanized code-mixed — known gap)"
+    }
+  ],
+  "policy_comparison": [
+    {
+      "Policy": "Random",
+      "Reward": "89.76",
+      "±Std": "5.74",
+      "Gini": "0.0077",
+      "Var(ratio)": "0.00026",
+      "Wait%": "6.4%"
+    },
+    {
+      "Policy": "Greedy",
+      "Reward": "147.15",
+      "±Std": "9.27",
+      "Gini": "0.0012",
+      "Var(ratio)": "0.00001",
+      "Wait%": "0.0%"
+    },
+    {
+      "Policy": "Equity-Greedy",
+      "Reward": "147.16",
+      "±Std": "9.27",
+      "Gini": "0.0012",
+      "Var(ratio)": "0.00001",
+      "Wait%": "0.0%"
+    },
+    {
+      "Policy": "EquiRelief (DQN)",
+      "Reward": "132.31",
+      "±Std": "7.84",
+      "Gini": "0.0022",
+      "Var(ratio)": "0.00003",
+      "Wait%": "0.7%"
+    }
+  ],
+  "training_progress": [
+    {
+      "Checkpoint": "Episode 100",
+      "Mean Reward (50-ep)": "72.3",
+      "Gini": "0.0138",
+      "Var(ratios)": "0.00087"
+    },
+    {
+      "Checkpoint": "Episode 500",
+      "Mean Reward (50-ep)": "90.2",
+      "Gini": "0.0092",
+      "Var(ratios)": "0.00038"
+    },
+    {
+      "Checkpoint": "Episode 1000",
+      "Mean Reward (50-ep)": "106.4",
+      "Gini": "0.0042",
+      "Var(ratios)": "0.00008"
+    },
+    {
+      "Checkpoint": "Episode 1500",
+      "Mean Reward (50-ep)": "119.4",
+      "Gini": "0.0033",
+      "Var(ratios)": "0.00006"
+    },
+    {
+      "Checkpoint": "Episode 2000",
+      "Mean Reward (50-ep)": "128.2",
+      "Gini": "0.0027",
+      "Var(ratios)": "0.00004"
+    }
+  ],
+  "stress_tests": [
+    {
+      "Policy": "Random",
+      "Min Ratio (imbalanced)": "1.000",
+      "Emergency <3 steps": "22%",
+      "Emergency <10 steps": "48%",
+      "Wasted Dispatches": "36"
+    },
+    {
+      "Policy": "Greedy",
+      "Min Ratio (imbalanced)": "1.000",
+      "Emergency <3 steps": "100%",
+      "Emergency <10 steps": "100%",
+      "Wasted Dispatches": "0"
+    },
+    {
+      "Policy": "Equity-Greedy",
+      "Min Ratio (imbalanced)": "1.000",
+      "Emergency <3 steps": "100%",
+      "Emergency <10 steps": "100%",
+      "Wasted Dispatches": "0"
+    },
+    {
+      "Policy": "EquiRelief (DQN)",
+      "Min Ratio (imbalanced)": "0.963",
+      "Emergency <3 steps": "100%",
+      "Emergency <10 steps": "100%",
+      "Wasted Dispatches": "7"
+    }
+  ]
+}

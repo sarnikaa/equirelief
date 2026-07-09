@@ -1,0 +1,698 @@
+[
+  {
+    "id": "hi001",
+    "text": "Yaar flood aa gaya, khaana chahiye urgently north sector mein",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "north sector",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "hi002",
+    "text": "Bhaiya please khana bhejo, 2 din se kuch nahi mila east camp",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "east camp",
+    "disaster_type": "flood",
+    "region": "east"
+  },
+  {
+    "id": "hi003",
+    "text": "Relief camp mein khana khatam ho gaya, immediately send karo",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "relief camp",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "hi004",
+    "text": "Bachhe bhukhe hain, central area mein ration nahi hai",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "central area",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "hi005",
+    "text": "Village mein anaj bilkul nahi, please west zone help karo",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "west zone",
+    "disaster_type": "flood",
+    "region": "west"
+  },
+  {
+    "id": "hi006",
+    "text": "Paani nahi hai peene ko, south district mein pipes toot gaye",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "south district",
+    "disaster_type": "flood",
+    "region": "south"
+  },
+  {
+    "id": "hi007",
+    "text": "Drinking water supply band ho gayi, north village crisis",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "north village",
+    "disaster_type": "general",
+    "region": "north"
+  },
+  {
+    "id": "hi008",
+    "text": "Saaf paani bhejo bhai, east shelter mein sab log beemar ho rahe",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "east shelter",
+    "disaster_type": "general",
+    "region": "east"
+  },
+  {
+    "id": "hi009",
+    "text": "Flood ke baad paani contaminated ho gaya, water truck chahiye",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "central",
+    "disaster_type": "flood",
+    "region": "central"
+  },
+  {
+    "id": "hi010",
+    "text": "Water tanker west camp nahi aaya 3 din se, urgent hai",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "west camp",
+    "disaster_type": "general",
+    "region": "west"
+  },
+  {
+    "id": "hi011",
+    "text": "Dawai khatam ho gayi north hospital mein, immediately supply karo",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "north hospital",
+    "disaster_type": "general",
+    "region": "north"
+  },
+  {
+    "id": "hi012",
+    "text": "Dengue patients south camp mein, medicine nahi hai",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "south camp",
+    "disaster_type": "epidemic",
+    "region": "south"
+  },
+  {
+    "id": "hi013",
+    "text": "Injured log east area mein, first aid kit chahiye jaldi",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "east area",
+    "disaster_type": "flood",
+    "region": "east"
+  },
+  {
+    "id": "hi014",
+    "text": "Ek aurat delivery ke liye hospital nahi pahunch pa rahi, medical help",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "hi015",
+    "text": "West zone mein cholera ke cases aa rahe, dawai bhejo",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "west zone",
+    "disaster_type": "epidemic",
+    "region": "west"
+  },
+  {
+    "id": "hi016",
+    "text": "North area mein khaana, paani, dawai sab chahiye, bahut bura haal",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water",
+      "medicine"
+    ],
+    "location": "north area",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "hi017",
+    "text": "Cyclone ke baad south village mein kuch nahi, please help",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water"
+    ],
+    "location": "south village",
+    "disaster_type": "cyclone",
+    "region": "south"
+  },
+  {
+    "id": "hi018",
+    "text": "Earthquake ke baad east district mein log fanse hain, resources chahiye",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "medicine"
+    ],
+    "location": "east district",
+    "disaster_type": "earthquake",
+    "region": "east"
+  },
+  {
+    "id": "hi019",
+    "text": "Rescue karo aur khaana do, central mein log 48 ghante se phanse",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "central",
+    "disaster_type": "flood",
+    "region": "central"
+  },
+  {
+    "id": "hi020",
+    "text": "West relief shelter mein sabkuch khatam, urgent send karo",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water",
+      "medicine"
+    ],
+    "location": "west shelter",
+    "disaster_type": "flood",
+    "region": "west"
+  },
+  {
+    "id": "hi021",
+    "text": "North camp mein volunteers aa rahe hain kal",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "north camp",
+    "disaster_type": "general",
+    "region": "north"
+  },
+  {
+    "id": "hi022",
+    "text": "South area mein roads clear ho gayi hain",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "south area",
+    "disaster_type": "flood",
+    "region": "south"
+  },
+  {
+    "id": "hi023",
+    "text": "East hospital reopen ho gaya hai, patients aa sakte hain",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "east hospital",
+    "disaster_type": "general",
+    "region": "east"
+  },
+  {
+    "id": "hi024",
+    "text": "Flood level kam ho raha hai central mein",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "central",
+    "disaster_type": "flood",
+    "region": "central"
+  },
+  {
+    "id": "hi025",
+    "text": "West mein bijli aa gayi wapas, situation better ho rahi hai",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "west",
+    "disaster_type": "general",
+    "region": "west"
+  },
+  {
+    "id": "hi026",
+    "text": "Thoda khana aa gaya par aur chahiye north shelter mein",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [
+      "food"
+    ],
+    "location": "north shelter",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "hi027",
+    "text": "South village mein paani hai but medicine ki kami hai",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "south village",
+    "disaster_type": "general",
+    "region": "south"
+  },
+  {
+    "id": "hi028",
+    "text": "East mein khana pahunch gaya, paani abhi bhi nahi",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "east",
+    "disaster_type": "flood",
+    "region": "east"
+  },
+  {
+    "id": "hi029",
+    "text": "Central camp mein situation improve ho rahi hai",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "central camp",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "hi030",
+    "text": "West area mein relief pahunch gayi, thanks to volunteers",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "west area",
+    "disaster_type": "flood",
+    "region": "west"
+  },
+  {
+    "id": "hi031",
+    "text": "Bhai sach mein bahut bura haal hai yahan north mein 😭",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [],
+    "location": "north",
+    "disaster_type": "general",
+    "region": "north"
+  },
+  {
+    "id": "hi032",
+    "text": "plzzz khana paani dawai sab bhejo south urgent urgent!!!",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water",
+      "medicine"
+    ],
+    "location": "south",
+    "disaster_type": "general",
+    "region": "south"
+  },
+  {
+    "id": "hi033",
+    "text": "RT @helpeast: east mein bahut logo ko paani chahiye",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "east",
+    "disaster_type": "flood",
+    "region": "east"
+  },
+  {
+    "id": "hi034",
+    "text": "Koi bata sakta hai central shelter ka address? jaana hai",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "central shelter",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "hi035",
+    "text": "west walo ne bola relief aa raha hai, sach hai kya?",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "west",
+    "disaster_type": "general",
+    "region": "west"
+  },
+  {
+    "id": "hi036",
+    "text": "North mein 500+ log hain camp mein, khana sirf 100 logo ka",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "north camp",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "hi037",
+    "text": "South district hospital mein oxygen khatam, life-threatening",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "south district",
+    "disaster_type": "general",
+    "region": "south"
+  },
+  {
+    "id": "hi038",
+    "text": "East mein ek bhi doctor nahi, medical team bhejo please",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "east",
+    "disaster_type": "general",
+    "region": "east"
+  },
+  {
+    "id": "hi039",
+    "text": "central relief camp me koi nahi aa raha, abandoned feel ho raha",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water"
+    ],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "hi040",
+    "text": "West mein pani ka level badh raha hai, ghar khali karo",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [],
+    "location": "west",
+    "disaster_type": "flood",
+    "region": "west"
+  },
+  {
+    "id": "hi041",
+    "text": "उत्तर में flood बहुत ज़्यादा है, khaana bhejo",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "north",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "hi042",
+    "text": "South mein दवाई की ज़रूरत है, please help",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "south",
+    "disaster_type": "general",
+    "region": "south"
+  },
+  {
+    "id": "hi043",
+    "text": "East camp: पानी नहीं है, water truck send karo",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "east camp",
+    "disaster_type": "general",
+    "region": "east"
+  },
+  {
+    "id": "hi044",
+    "text": "Central में सब ठीक है, volunteers aa gaye",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "hi045",
+    "text": "West में बाढ़ कम हुई, but khaana abhi bhi chahiye",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "west",
+    "disaster_type": "flood",
+    "region": "west"
+  },
+  {
+    "id": "hi046",
+    "text": "North shelter mein 2-3 din ka khaana hai, stock khatam hone wala",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [
+      "food"
+    ],
+    "location": "north shelter",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "hi047",
+    "text": "South mein paani aa raha hai, sab log wahan jaayein",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [
+      "water"
+    ],
+    "location": "south",
+    "disaster_type": "general",
+    "region": "south"
+  },
+  {
+    "id": "hi048",
+    "text": "East hospital mein medicines thodi kam hain, replenish karo",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [
+      "medicine"
+    ],
+    "location": "east hospital",
+    "disaster_type": "general",
+    "region": "east"
+  },
+  {
+    "id": "hi049",
+    "text": "Central mein sab theek lag raha hai abhi ke liye",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "hi050",
+    "text": "West mein situation stable hai, koi badi zaroorat nahi",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "west",
+    "disaster_type": "general",
+    "region": "west"
+  },
+  {
+    "id": "hi051",
+    "text": "Yaar north mein bohot sare bache hain, khaana urgently chahiye",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "north",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "hi052",
+    "text": "South mein fire lagi, log safe jagah par hain, water needed",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "water"
+    ],
+    "location": "south",
+    "disaster_type": "fire",
+    "region": "south"
+  },
+  {
+    "id": "hi053",
+    "text": "East mein rescue teams pahunch gayi, log safe hain",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "east",
+    "disaster_type": "flood",
+    "region": "east"
+  },
+  {
+    "id": "hi054",
+    "text": "Central shelter fully packed, aur jagah chahiye aur khaana",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food"
+    ],
+    "location": "central shelter",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "hi055",
+    "text": "West mein earthquake ke baad sab kuch toot gaya, help karo",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "medicine"
+    ],
+    "location": "west",
+    "disaster_type": "earthquake",
+    "region": "west"
+  },
+  {
+    "id": "hi056",
+    "text": "North area clear ho gayi, logon ko wapas jaane do",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "north area",
+    "disaster_type": "flood",
+    "region": "north"
+  },
+  {
+    "id": "hi057",
+    "text": "South mein gaon poora doob gaya, koi nahi sun raha SOS",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "food",
+      "water",
+      "medicine"
+    ],
+    "location": "south village",
+    "disaster_type": "flood",
+    "region": "south"
+  },
+  {
+    "id": "hi058",
+    "text": "East relief work chal raha hai smoothly, no major issues",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "east",
+    "disaster_type": "general",
+    "region": "east"
+  },
+  {
+    "id": "hi059",
+    "text": "Central mein ek bachhe ko snake bite hua, antivenom chahiye jaldi",
+    "lang": "hinglish",
+    "urgency": 1,
+    "resources": [
+      "medicine"
+    ],
+    "location": "central",
+    "disaster_type": "general",
+    "region": "central"
+  },
+  {
+    "id": "hi060",
+    "text": "West camp mein sab normal, kal se school reopen",
+    "lang": "hinglish",
+    "urgency": 0,
+    "resources": [],
+    "location": "west camp",
+    "disaster_type": "general",
+    "region": "west"
+  }
+]

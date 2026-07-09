@@ -1,0 +1,46 @@
+{
+  "limitations": [
+    {
+      "title": "Greedy outperforms EquiRelief on reward",
+      "observed": "Greedy reward=150.9, EquiRelief reward=134.6",
+      "reason": "When all 5 regions start with urgency=1.0 and similar need distributions, greedy and fair strategies converge to the same policy. The advantage of equity-aware RL is most visible when demand is severely imbalanced or when remote regions have low visibility.",
+      "evidence": "Stress Test 1 (imbalanced demand): EquiRelief min-ratio > Greedy min-ratio.",
+      "severity": "LOW — expected given uniform test conditions"
+    },
+    {
+      "title": "Hinglish/Tanglish urgency F1 ~ 0.50",
+      "observed": "Hinglish F1=0.517, Tanglish F1=0.499",
+      "reason": "mDeBERTa-v3 was pretrained on Devanagari Hindi and Tamil script. Romanized code-mixed text (\"khana chahiye\", \"saapadu illai\") does not map to the model's multilingual representations. No disaster-domain Hinglish/Tanglish training data exists anywhere.",
+      "evidence": "English F1=0.879 vs Hinglish F1=0.517 — 36-point gap.",
+      "severity": "HIGH — this is the documented research gap this project addresses"
+    },
+    {
+      "title": "Region detection defaults to central (18.3% error)",
+      "observed": "Region accuracy = 81.7% on manual test set",
+      "reason": "NER model (Davlan mBERT) was trained on Wikipedia-domain text. Disaster-specific locations (shelter names, local landmarks, districts) are not well represented. Fallback keyword dict covers only ~30 place names.",
+      "evidence": "CrisisNLP region distribution: 87% central before dict expansion.",
+      "severity": "MEDIUM — mitigated by keyword dict, acceptable for academic prototype"
+    },
+    {
+      "title": "Ablation shows slower convergence for complex variants",
+      "observed": "At 500 ep: Standard DQN 90.8 > Full EquiRelief 80.7",
+      "reason": "Double DQN + PER + n-Step requires more experience to converge because PER's importance weights and n-Step bootstrapping introduce variance early in training. At 1000 episodes Full EquiRelief overtakes.",
+      "evidence": "1000-episode ablation convergence trend: Full EquiRelief shows largest improvement from early to late training.",
+      "severity": "LOW — expected behaviour, not a fundamental flaw"
+    },
+    {
+      "title": "Simulated environment — not real disaster data",
+      "observed": "RL environment uses synthetic Poisson demand arrivals",
+      "reason": "No real-time disaster resource allocation dataset exists with ground truth optimal decisions. The Gymnasium environment is a reasonable approximation but does not capture all real-world complexity (supply chain constraints, transportation delays, etc.)",
+      "evidence": "Standard practice in humanitarian AI literature.",
+      "severity": "MEDIUM — acknowledged limitation of all RL-based humanitarian work"
+    },
+    {
+      "title": "Cross-lingual dedup not empirically demonstrated",
+      "observed": "No multi-language clusters found in manual test set",
+      "reason": "The 180-sample test set contains manually created messages, not real cross-posted content. Real deployment would have the same flood reported in EN, HI, Hinglish simultaneously.",
+      "evidence": "LaBSE embedding space analysis confirms multilingual similarity — stage functions correctly, empirical demonstration requires live data.",
+      "severity": "LOW — architectural correctness verified, empirical demo deferred"
+    }
+  ]
+}
